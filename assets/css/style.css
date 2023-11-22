@@ -1,0 +1,112 @@
+/* Основные стили для всего документа */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E8B57; /* Зеленый цвет для заголовка */
+    color: #fff; /* Белый текст */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Белый фон для контента */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff; /* Белый фон для таблицы */
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Серый цвет границ таблицы */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2E8B57; /* Зеленый цвет для заголовков столбцов */
+    color: #fff; /* Белый текст в заголовках */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Светло-серый фон для четных строк */
+}
+
+tr:hover {
+    background-color: #D3D3D3; /* Светло-серый фон при наведении курсора */
+}
+
+.navigation {
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #2E8B57; /* Зеленый цвет для ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении курсора на ссылку */
+}
+
+footer {
+    background-color: #2E8B57; /* Зеленый цвет для нижнего колонтитула */
+    color: #fff; /* Белый текст в нижнем колонтитуле */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Стили для формы добавления и редактирования билетов (add_ticket.php и update_ticket.php) */
+.form-container {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-button {
+    background-color: #2E8B57;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #228B22; /* Темно-зеленый цвет при наведении на кнопку */
+}
